@@ -1,3 +1,6 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -21,25 +24,9 @@ profile.cov
 go.work
 go.work.sum
 
-# Python cache and artifacts
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Node dependencies
-node_modules/
-dist/
-
-# Environment variables file
+# env file
 .env
 
-# Editor/IDE directories
+# Editor/IDE
 # .idea/
 # .vscode/
-
-# OS-specific files
-.DS_Store
-
-# Resume files
-resources/resume/*.docx
